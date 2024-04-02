@@ -6,7 +6,7 @@ ___________
 **controll:
     1. modeling shapes:
         . default build-in 2D shape (rectangle, triangle, circle)
-            >>> from cmn.models import Rectangle
+            >>> from cen.models import Rectangle
             ... square = Rectangle(10, 10)
             ... square.draw()
         . default build-in 3D shape (cube, cyclinder, sphere) (this not very compeletable)
@@ -45,7 +45,7 @@ Example:-
     ... world.add_to_sence(square)
     ... while True: world.refresh()
 
-    3. provided some mathematical tools (Vec2, Vec3) and logical tools
+    3. provided some mathematical functions (Vec2, Vec3) and logical methods.
     
 """
 
